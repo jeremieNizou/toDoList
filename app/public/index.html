@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title>Todo MEAN</title>
+		<script src="/lib/angular/angular.min.js"></script>
+		<script src="/lib/angular/angular-sanitize.min.js"></script>
+		<script src="/lib/angular-route/angular-route.min.js"></script>
+		<script src="/lib/angular-animate/angular-animate.min.js"></script>
+		<script src="/lib/jquery/dist/jquery.min.js"></script>
+		<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<script src="/scripts/route.js"></script>
+		<script src="/scripts/directives/focusMe.js"></script>
+		<script src="/scripts/services/serviceAjax.js"></script>
+		<script src="/scripts/controllers/home.js"></script>
+		<script src="/scripts/controllers/presentation.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="/styles/home.css">
+		<link rel="stylesheet" type="text/css" href="/styles/presentation.css">
+		
+		<base href="/">
+	</head>
+
+	<body>	
+		<div ng-view></div>
+	</body>
+</html>
+
+
+
+
